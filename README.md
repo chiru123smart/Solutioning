@@ -97,5 +97,13 @@ IP details:
 External-IP : a7aed7215ba6c489aa43744b6bfe44c3-720039544.us-east-2.elb.amazonaws.com
 
 
+
+
 NAME             TYPE           CLUSTER-IP      EXTERNAL-IP                                                              PORT(S)        AGE   SELECTOR
 simple-jwt-api   LoadBalancer   10.100.96.250   a7aed7215ba6c489aa43744b6bfe44c3-720039544.us-east-2.elb.amazonaws.com   80:32632/TCP   6m    app=simple-jwt-api
+
+
+.env file content:
+
+JWT_SECRET='myjwtsecret'
+LOG_LEVEL=DEBUG
