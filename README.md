@@ -94,6 +94,7 @@ For more detail about each of these steps, see the project lesson.
 
 IP details:
 10.100.96.250
+External-IP : a7aed7215ba6c489aa43744b6bfe44c3-720039544.us-east-2.elb.amazonaws.com
 
 
 NAME             TYPE           CLUSTER-IP      EXTERNAL-IP                                                              PORT(S)        AGE   SELECTOR
